@@ -19,7 +19,7 @@ The "Calculate Egyptian Fractions" repository provides a tool to decompose any p
 
 2. **Navigate to the Directory**:
     ```bash
-    cd CalculateEgyptianFractions
+    cd EgyptiansFractions
     ```
 
 3. **Open `index.html` in a Web Browser**:
@@ -49,7 +49,3 @@ To decompose the fraction 4/13 into Egyptian fractions:
 ## Contributing
 
 Contributions are welcome! Please open an issue or submit a pull request with your improvements.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
