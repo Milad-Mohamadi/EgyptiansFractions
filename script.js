@@ -1,6 +1,6 @@
 function CalculateEgyptiansFractions(a, b) {
     let numbers = [];
-    while (a !== 0 && a < b) {
+    while (a > 0 && a < b) {
         const x = Math.ceil(b / a);
 
         numbers.push(`1/${x}`);
