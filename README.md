@@ -44,7 +44,7 @@ To decompose the fraction 4/13 into Egyptian fractions:
 
 - `index.html`: The main HTML file with the user interface.
 - `styles.css`: The CSS file for styling the HTML page.
-- `script.js`: The JavaScript file containing the algorithm for calculating Egyptian fractions.
+- `main.js`: The JavaScript file containing the algorithm for calculating Egyptian fractions.
 
 ## Contributing
 

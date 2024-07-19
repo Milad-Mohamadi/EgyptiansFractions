@@ -1,14 +1,43 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f8ff;
-    color: #333;
-    margin: 0;
-    padding: 0;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    flex-direction: column;
+}
+
+.sidebar {
+    position: absolute;
+    height: 100%;
+    width: 300px;
+    background-color: #f4f4f4;
+    padding: 15px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin-bottom: 10px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 4px;
+}
+
+.sidebar ul li a:hover {
+    background-color: #bbb;
+}
+
+.content {
+    width:calc(100% - 400px);
+    padding: 20px;
+    position: absolute;
+    right: 0;
 }
 
 h1 {
